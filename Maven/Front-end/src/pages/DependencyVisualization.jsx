@@ -38,7 +38,6 @@ const DependencyVisualization = () => {
   const [graphStats, setGraphStats] = useState(null);
   const [cycles, setCycles] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState('');
   const [selectedApp, setSelectedApp] = useState('');
   const [filterType, setFilterType] = useState('all');
   const [showCyclesOnly, setShowCyclesOnly] = useState(false);
@@ -150,7 +149,6 @@ const DependencyVisualization = () => {
         Dependency Visualization
       </Typography>
 
-      {error && <Alert severity="error" sx={{ mb: 2 }}>{error}</Alert>}
 
       {/* Graph Statistics */}
       <Grid container spacing={3} sx={{ mb: 3 }}>
