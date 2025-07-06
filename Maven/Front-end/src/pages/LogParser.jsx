@@ -602,8 +602,8 @@ Example: http_requests_total job=user-service target=auth-service 1250.5"
                         Dependencies Found ({result.dependencies.length})
                       </Typography>
                       <Box sx={{ maxHeight: 300, overflow: 'auto' }}>
-                        {result.dependencies.map((dep, index) => {
-                          const confidenceValue = dep.confidenceScore.value;
+                        {Array.isArray(result.dependencies) && result.dependencies.map((dep, index) => {
+                          const confidenceValue = dep?.confidenceScore?.value ?? 0;
                           let confidenceColor = 'error';
                           if (confidenceValue > 0.8) confidenceColor = 'success';
                           else if (confidenceValue > 0.5) confidenceColor = 'warning';
