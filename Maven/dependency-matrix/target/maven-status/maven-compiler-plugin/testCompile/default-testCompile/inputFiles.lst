@@ -1,0 +1,16 @@
+/Users/theamol/Downloads/fresh/Maven/dependency-matrix/src/test/java/com/enterprise/dependency/AppTest.java
+/Users/theamol/Downloads/fresh/Maven/dependency-matrix/src/test/java/com/enterprise/dependency/adapter/ApiGatewayAdapterTest.java
+/Users/theamol/Downloads/fresh/Maven/dependency-matrix/src/test/java/com/enterprise/dependency/adapter/RouterLogAdapterTest.java
+/Users/theamol/Downloads/fresh/Maven/dependency-matrix/src/test/java/com/enterprise/dependency/engine/ClaimProcessingEngineTest.java
+/Users/theamol/Downloads/fresh/Maven/dependency-matrix/src/test/java/com/enterprise/dependency/engine/ConflictResolutionEngineTest.java
+/Users/theamol/Downloads/fresh/Maven/dependency-matrix/src/test/java/com/enterprise/dependency/engine/DependencyGraphBuilderTest.java
+/Users/theamol/Downloads/fresh/Maven/dependency-matrix/src/test/java/com/enterprise/dependency/engine/InferenceEngineTest.java
+/Users/theamol/Downloads/fresh/Maven/dependency-matrix/src/test/java/com/enterprise/dependency/integration/DependencyMatrixIntegrationTest.java
+/Users/theamol/Downloads/fresh/Maven/dependency-matrix/src/test/java/com/enterprise/dependency/model/core/ApplicationTest.java
+/Users/theamol/Downloads/fresh/Maven/dependency-matrix/src/test/java/com/enterprise/dependency/model/core/ClaimTest.java
+/Users/theamol/Downloads/fresh/Maven/dependency-matrix/src/test/java/com/enterprise/dependency/model/core/ConfidenceScoreTest.java
+/Users/theamol/Downloads/fresh/Maven/dependency-matrix/src/test/java/com/enterprise/dependency/model/core/DependencyTest.java
+/Users/theamol/Downloads/fresh/Maven/dependency-matrix/src/test/java/com/enterprise/dependency/model/core/DependencyTypeTest.java
+/Users/theamol/Downloads/fresh/Maven/dependency-matrix/src/test/java/com/enterprise/dependency/model/sources/ApiGatewayCallTest.java
+/Users/theamol/Downloads/fresh/Maven/dependency-matrix/src/test/java/com/enterprise/dependency/model/sources/CodebaseDependencyTest.java
+/Users/theamol/Downloads/fresh/Maven/dependency-matrix/src/test/java/com/enterprise/dependency/model/sources/RouterLogEntryTest.java
